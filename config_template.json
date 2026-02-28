@@ -1,0 +1,47 @@
+{
+  "base_url": "https://pxxt.zju.edu.cn",
+  "cookies": [
+    {
+      "name": "iPlanetDirectoryPro",
+      "value": "",
+      "domain": ".zju.edu.cn",
+      "path": "/"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "",
+      "domain": "pxxt.zju.edu.cn",
+      "path": "/"
+    }
+  ],
+  "element_locators": {
+    "search_input": {
+      "by": "By.ID",
+      "value": "searchInput"
+    },
+    "search_button": {
+      "by": "By.CLASS_NAME",
+      "value": "search-btn"
+    },
+    "edit_button": {
+      "by": "By.XPATH",
+      "value": "//button[contains(text(),'编辑')]"
+    },
+    "location_input": {
+      "by": "By.ID",
+      "value": "locationInput"
+    },
+    "save_button": {
+      "by": "By.XPATH",
+      "value": "//button[contains(text(),'保存')]"
+    },
+    "success_message": {
+      "by": "By.CLASS_NAME",
+      "value": "success-msg"
+    }
+  },
+  "column_names": {
+    "asset_number": "资产编号",
+    "new_location": "学院存放地"
+  }
+}
